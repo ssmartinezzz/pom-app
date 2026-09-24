@@ -47,7 +47,7 @@ When you run on a physical device, point `EXPO_PUBLIC_API_URL` at your machine's
 |---|---|
 | `EXPO_PUBLIC_API_URL` | POM Platform gateway URL, without `/api/v1` (default `http://localhost:9080`) |
 
-You can also put it in a `.env` file at the project root. That file is ignored by git.
+Or copy `.env.example` to `.env` and edit it. `.env` is ignored by git.
 
 ## Project structure
 
@@ -64,4 +64,4 @@ src/utils/      Storage, formatting, and framework helpers
 
 ## License
 
-No license has been chosen yet. All rights reserved.
+[MIT](LICENSE)
