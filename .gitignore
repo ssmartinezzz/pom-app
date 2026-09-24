@@ -39,3 +39,16 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# env
+.env
+.env.*
+!.env.example
+
+# local tooling and notes
+.claude/
+.kiro/
+.idea/
+.vscode/
+BUGS.md
+CHANGELOG.md
